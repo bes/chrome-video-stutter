@@ -10,3 +10,5 @@ This leads to the case where Chrome can not be used for creating professional vi
 WebGL + video playback because the video is in slow motion and the timestamps are not accurate.
 
 Operating system: macOS.
+
+[FOR A DEMO CLICK HERE](https://bes.github.io/chrome-video-slowmo/)
