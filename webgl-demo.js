@@ -1,4 +1,4 @@
-var cubeRotation = 0.0;
+var cubeRotation = 0;
 // will set to true when video can be copied to texture
 var copyVideo = false;
 
@@ -170,10 +170,10 @@ function initBuffers(gl) {
 
   const positions = [
     // Front face
-    -1.0, -1.0,  1.0,
-     1.0, -1.0,  1.0,
-     1.0,  1.0,  1.0,
-    -1.0,  1.0,  1.0,
+    -2.0, -2.0,  2.0,
+     2.0, -2.0,  2.0,
+     2.0,  2.0,  2.0,
+    -2.0,  2.0,  2.0,
 
     // Back face
     -1.0, -1.0, -1.0,
@@ -539,7 +539,7 @@ function drawScene(gl, programInfo, buffers, texture, deltaTime) {
 
   // Update the rotation for the next draw
 
-  cubeRotation += deltaTime;
+  // cubeRotation += deltaTime;
 }
 
 //
